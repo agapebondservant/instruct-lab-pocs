@@ -16,7 +16,11 @@ langchain_nomic==0.1.4
 chromadb==1.0.15
 langchain-chroma==0.2.4
 ruamel_yaml==0.18.14
-sdg-hub[vllm,examples]
+lance==1.2.1
+sdg-hub[examples]
+langchain-graph-retriever==0.8.0
+#training-hub
+#training-hub[cuda]
 #langgraph-checkpoint 
 #langgraph-checkpoint-sqlite
 #vllm==0.9.1
